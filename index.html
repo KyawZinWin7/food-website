@@ -120,7 +120,7 @@
             <span>popular dishes</span>
             <h3>our delicious food</h3>
         </div>
-
+    
         <div class="swiper food-slider">
             <div class="swiper-wrapper">
                 <div class="swiper-slide slide" data-name="food-1">
@@ -128,25 +128,26 @@
                     <h3>delicious food</h3>
                     <div class="price">$49.99</div>
                 </div>
-
+                
+    
                 <div class="swiper-slide slide" data-name="food-2">
                     <img src="./assets/img/food-img-2.png" alt="">
                     <h3>delicious food</h3>
                     <div class="price">$49.99</div>
                 </div>
-
+    
                 <div class="swiper-slide slide" data-name="food-3">
                     <img src="./assets/img/food-img-3.png" alt="">
                     <h3>delicious food</h3>
                     <div class="price">$49.99</div>
                 </div>
-
+    
                 <div class="swiper-slide slide" data-name="food-4">
                     <img src="./assets/img/food-img-4.png" alt="">
                     <h3>delicious food</h3>
                     <div class="price">$49.99</div>
                 </div>
-
+    
                 <div class="swiper-slide slide" data-name="food-5">
                     <img src="./assets/img/food-img-5.png" alt="">
                     <h3>delicious food</h3>
@@ -305,9 +306,9 @@
             <h3>our popular dishes</h3>
          </div>
 
-         <div class="menu-slider">
-             <div class="w">
-                 <div class="slide">
+         <div class="swiper menu-slider">
+             <div class="swiper-wrapper">
+                 <div class="swiper-slide slide">
                      <h3 class="title">breakfast</h3>
 
                      <div class="box-container">
@@ -385,7 +386,7 @@
                      </div>
                  </div>
 
-                 <div class="slide">
+                 <div class="swiper-slide slide">
                     <h3 class="title">lunch </h3>
 
                     <div class="box-container">
@@ -439,7 +440,7 @@
                     </div>
                  </div>
 
-                 <div class="slide">
+                 <div class="swiper-slide slide">
                     <h3 class="title"> dinner </h3>
 
                     <div class="box-container">
@@ -505,7 +506,7 @@
                     </div>
                  </div>
 
-                 <div class="slide">
+                 <div class="swiper-slide slide">
                     <h3 class="title"> drinks </h3>
 
                     <div class="box-container">
@@ -583,7 +584,7 @@
                     </div>
                  </div>
 
-                 <div class="slide">
+                 <div class="swiper-slide slide">
                     <h3 class="title"> dessert </h3>
 
                     <div class="box-container">
@@ -649,9 +650,220 @@
                     </div>
                  </div>
              </div>
+
+             <div class="swiper-pagination"></div>
          </div>
      </section>
      <!-- menu section ends -->
+
+     <!-- order section starts -->
+     <section class="order" id="order">
+         <div class="heading">
+             <span>order now</span>
+             <h3>fast home delivery </h3>
+         </div>
+         <form action="">
+            <div class="box-container">
+                <div class="box">
+                    <div class="inputBox">
+                        <span>full name</span>
+                        <input type="text" placeholder="enter your name">
+                    </div>
+
+                    <div class="inputBox">
+                        <span>food name</span>
+                        <input type="text" placeholder="food you want">
+                    </div>
+
+                    <div class="inputBox">
+                        <span>order details</span>
+                        <input type="text" placeholder="specifics with food">
+                    </div>
+
+                    <div class="inputBox">
+                        <span>your address</span>
+                        <textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="inputBox">
+                        <span>number</span>
+                        <input type="number" placeholder="enter your number">
+                    </div>
+
+                    <div class="inputBox">
+                        <span>how much</span>
+                        <input type="number" placeholder="how many you want">
+                    </div>
+
+                    <div class="inputBox">
+                        <span>when you want</span>
+                        <input type="datetime-local">
+                    </div>
+
+                    <div class="inputBox">
+                        <span>our address</span>
+                        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3700.014242150055!2d96.18377651534219!3d21.97241646026834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30cb6e538bf6418b%3A0x9c9718b6ec4e04f8!2sMandalay%20Technological%20University!5e0!3m2!1sen!2smm!4v1643881925179!5m2!1sen!2smm"
+                          allowfullscreen="" loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+
+            <input type="submit" value="order now" class="btn">
+         </form>
+     </section>
+     <!-- order section ends -->
+
+     <!-- blogs section starts -->
+     <section class="blogs" id="blogs">
+         <div class="heading">
+             <span>our blogs</span>
+             <h3>our latest posts</h3>
+         </div>
+
+         <div class="swiper blogs-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="./assets/img/blog-img-1.jpg" alt="">
+                        <span>burger</span>
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"><i class="fas fa-calendar"></i> 21st may, 2022</a>
+                            <a href="#"><i class="fas fa-user"></i> by admin </a>
+                        </div>
+                        <a href="#" class="title">blog title goes here</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, dicta?</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                   <div class="image">
+                       <img src="./assets/img/blog-img-2.jpg" alt="">
+                       <span>sandwich</span>
+                   </div>
+                   <div class="content">
+                       <div class="icon">
+                           <a href="#"><i class="fas fa-calendar"></i> 21st may, 2022</a>
+                           <a href="#"><i class="fas fa-user"></i> by admin </a>
+                       </div>
+                       <a href="#" class="title">blog title goes here</a>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, dicta?</p>
+                       <a href="#" class="btn">read more</a>
+                   </div>
+               </div>
+
+               <div class="swiper-slide slide">
+                   <div class="image">
+                       <img src="./assets/img/blog-img-3.jpg" alt="">
+                       <span>chicken</span>
+                   </div>
+                   <div class="content">
+                       <div class="icon">
+                           <a href="#"><i class="fas fa-calendar"></i> 21st may, 2022</a>
+                           <a href="#"><i class="fas fa-user"></i> by admin </a>
+                       </div>
+                       <a href="#" class="title">blog title goes here</a>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, dicta?</p>
+                       <a href="#" class="btn">read more</a>
+                   </div>
+               </div>
+
+               <div class="swiper-slide slide">
+                   <div class="image">
+                       <img src="./assets/img/blog-img-4.jpg" alt="">
+                       <span> ice-cream </span>
+                   </div>
+                   <div class="content">
+                       <div class="icon">
+                           <a href="#"><i class="fas fa-calendar"></i> 21st may, 2022</a>
+                           <a href="#"><i class="fas fa-user"></i> by admin </a>
+                       </div>
+                       <a href="#" class="title">blog title goes here</a>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, dicta?</p>
+                       <a href="#" class="btn">read more</a>
+                   </div>
+               </div>
+
+               <div class="swiper-slide slide">
+                   <div class="image">
+                       <img src="./assets/img/blog-img-5.jpg" alt="">
+                       <span>pizza</span>
+                   </div>
+                   <div class="content">
+                       <div class="icon">
+                           <a href="#"><i class="fas fa-calendar"></i> 21st may, 2022</a>
+                           <a href="#"><i class="fas fa-user"></i> by admin </a>
+                       </div>
+                       <a href="#" class="title">blog title goes here</a>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, dicta?</p>
+                       <a href="#" class="btn">read more</a>
+                   </div>
+               </div>
+
+               <div class="swiper-slide slide">
+                   <div class="image">
+                       <img src="./assets/img/blog-img-6.jpg" alt="">
+                       <span>coffee</span>
+                   </div>
+                   <div class="content">
+                       <div class="icon">
+                           <a href="#"><i class="fas fa-calendar"></i> 21st may, 2022</a>
+                           <a href="#"><i class="fas fa-user"></i> by admin </a>
+                       </div>
+                       <a href="#" class="title">blog title goes here</a>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, dicta?</p>
+                       <a href="#" class="btn">read more</a>
+                   </div>
+               </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+     </section>
+     <!-- blogs section ends -->
+
+     <section class="footer">
+         <div class="icons-container">
+             <div class="icons">
+                 <i class="fas fa-clock"></i>
+                 <h3>opening hours</h3>
+                 <p>07:00am to 10:00pm</p>
+             </div>
+
+             <div class="icons">
+                <i class="fas fa-phone"></i>
+                <h3> phone </h3>
+                <p>+959 9252676345</p>
+                <p>+959 9252676345</p>
+            </div>
+
+            <div class="icons">
+                <i class="fas fa-envelope"></i>
+                <h3> email </h3>
+                <p>kyawzinwin@gmail.com </p>
+                <p>thinthinswe@gmail.com </p>
+            </div>
+
+            <div class="icons">
+                <i class="fas fa-map"></i>
+                <h3> address </h3>
+                <p>Mandalay, Myanmar</p>
+            </div>
+         </div>
+         <div class="share">
+             <a href="#" class="fab fa-facebook-f"></a>
+             <a href="#" class="fab fa-twitter"></a>
+             <a href="#" class="fab fa-instagram"></a>
+             <a href="#" class="fab fa-linkedin"></a>
+         </div>
+         <div class="credit"> created by <span>mr. web designer</span> | all rights reserved!</div>
+         
+     </section>
 
     
 
